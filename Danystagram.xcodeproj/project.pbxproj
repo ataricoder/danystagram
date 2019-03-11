@@ -11,12 +11,13 @@
 		663B3C8917E7296ACC564BB3 /* Pods_DanystagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350BFD7AF195E2974BFF34CB /* Pods_DanystagramUITests.framework */; };
 		D2B780C820F991089AD9BBDA /* Pods_Danystagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29A224ED416C464F6719FBF /* Pods_Danystagram.framework */; };
 		D3A9EB132235F003008656FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9EB122235F003008656FB /* AppDelegate.swift */; };
-		D3A9EB152235F003008656FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9EB142235F003008656FB /* ViewController.swift */; };
 		D3A9EB182235F003008656FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A9EB162235F003008656FB /* Main.storyboard */; };
 		D3A9EB1A2235F005008656FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A9EB192235F005008656FB /* Assets.xcassets */; };
 		D3A9EB1D2235F005008656FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A9EB1B2235F005008656FB /* LaunchScreen.storyboard */; };
 		D3A9EB282235F005008656FB /* DanystagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9EB272235F005008656FB /* DanystagramTests.swift */; };
 		D3A9EB332235F005008656FB /* DanystagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9EB322235F005008656FB /* DanystagramUITests.swift */; };
+		D3A9EB412235FCFD008656FB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9EB402235FCFD008656FB /* LoginViewController.swift */; };
+		D3A9EB432235FD0E008656FB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9EB422235FD0E008656FB /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,6 @@
 		D29A224ED416C464F6719FBF /* Pods_Danystagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Danystagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A9EB0F2235F003008656FB /* Danystagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Danystagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A9EB122235F003008656FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3A9EB142235F003008656FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3A9EB172235F003008656FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3A9EB192235F005008656FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3A9EB1C2235F005008656FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		D3A9EB2E2235F005008656FB /* DanystagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanystagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A9EB322235F005008656FB /* DanystagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanystagramUITests.swift; sourceTree = "<group>"; };
 		D3A9EB342235F005008656FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A9EB402235FCFD008656FB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D3A9EB422235FD0E008656FB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,11 +140,12 @@
 			isa = PBXGroup;
 			children = (
 				D3A9EB122235F003008656FB /* AppDelegate.swift */,
-				D3A9EB142235F003008656FB /* ViewController.swift */,
 				D3A9EB162235F003008656FB /* Main.storyboard */,
 				D3A9EB192235F005008656FB /* Assets.xcassets */,
 				D3A9EB1B2235F005008656FB /* LaunchScreen.storyboard */,
 				D3A9EB1E2235F005008656FB /* Info.plist */,
+				D3A9EB402235FCFD008656FB /* LoginViewController.swift */,
+				D3A9EB422235FD0E008656FB /* FeedViewController.swift */,
 			);
 			path = Danystagram;
 			sourceTree = "<group>";
@@ -397,7 +400,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A9EB152235F003008656FB /* ViewController.swift in Sources */,
+				D3A9EB412235FCFD008656FB /* LoginViewController.swift in Sources */,
+				D3A9EB432235FD0E008656FB /* FeedViewController.swift in Sources */,
 				D3A9EB132235F003008656FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
