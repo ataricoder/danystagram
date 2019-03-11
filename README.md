@@ -23,9 +23,9 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-Sign Up
+Sign Up <br />
 ![](danystagram_signUp.gif) <br />
 <br />
-Log In
+Log In <br />
 ![](danystagram_post.gif)
 
