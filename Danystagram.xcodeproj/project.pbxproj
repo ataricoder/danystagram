@@ -18,6 +18,7 @@
 		D3A9EB332235F005008656FB /* DanystagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9EB322235F005008656FB /* DanystagramUITests.swift */; };
 		D3A9EB412235FCFD008656FB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9EB402235FCFD008656FB /* LoginViewController.swift */; };
 		D3A9EB432235FD0E008656FB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9EB422235FD0E008656FB /* FeedViewController.swift */; };
+		D3A9EB4522360D62008656FB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9EB4422360D62008656FB /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		D3A9EB342235F005008656FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3A9EB402235FCFD008656FB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D3A9EB422235FD0E008656FB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		D3A9EB4422360D62008656FB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				D3A9EB1E2235F005008656FB /* Info.plist */,
 				D3A9EB402235FCFD008656FB /* LoginViewController.swift */,
 				D3A9EB422235FD0E008656FB /* FeedViewController.swift */,
+				D3A9EB4422360D62008656FB /* CameraViewController.swift */,
 			);
 			path = Danystagram;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A9EB412235FCFD008656FB /* LoginViewController.swift in Sources */,
+				D3A9EB4522360D62008656FB /* CameraViewController.swift in Sources */,
 				D3A9EB432235FD0E008656FB /* FeedViewController.swift in Sources */,
 				D3A9EB132235F003008656FB /* AppDelegate.swift in Sources */,
 			);
