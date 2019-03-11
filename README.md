@@ -26,6 +26,6 @@ Here's a walkthrough of implemented user stories:
 Sign Up <br />
 ![](danystagram_signUp.gif) <br />
 <br />
-Log In <br />
+Log In and Post<br />
 ![](danystagram_post.gif)
 
