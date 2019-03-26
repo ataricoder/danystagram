@@ -26,7 +26,7 @@ Commenting <br />
 ![](insta-1.gif) <br />
 <br />
 Logging Out<br />
-![](insta-2.gif)
+![](insta-2.gif) <br />
 <br />
 Staying Logged In Across Restarts<br />
 ![](insta-3.gif)
