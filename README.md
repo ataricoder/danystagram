@@ -22,7 +22,14 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+Commenting <br />
+![](insta-1.gif) <br />
+<br />
+Logging Out<br />
+![](insta-2.gif)
+<br />
+Staying Logged In Across Restarts<br />
+![](insta-3.gif)
 
 # Parstagram - Part I
 
