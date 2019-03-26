@@ -8,6 +8,7 @@ target 'Danystagram' do
   # Pods for Danystagram
   pod "Parse"
   pod "AlamofireImage"
+  pod "MessageInputBar"
   
 
   target 'DanystagramTests' do
