@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Danystagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Danystagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,7 +122,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="478" id="OkD-Wf-Fpn" customClass="PostCell" customModule="Danystagram" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="478" id="OkD-Wf-Fpn" customClass="PostCell" customModule="Danystagram" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="478"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OkD-Wf-Fpn" id="9bi-VN-6Nl">
@@ -173,6 +173,11 @@
                         <viewLayoutGuide key="safeArea" id="ZHl-yg-u48"/>
                     </view>
                     <navigationItem key="navigationItem" id="Wtj-NK-MxY">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="UgR-mS-Vqb">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="VZy-vF-gQK" id="CBz-ib-0xc"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="loc-P3-D8p">
                             <connections>
                                 <segue destination="JRu-Lr-Hcp" kind="presentation" id="Ujo-sJ-0li"/>
