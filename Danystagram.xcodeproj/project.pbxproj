@@ -10,6 +10,7 @@
 		25AB1B25E28A74DF6CF3EF2D /* Pods_DanystagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CC2F06F48081770668480D /* Pods_DanystagramTests.framework */; };
 		663B3C8917E7296ACC564BB3 /* Pods_DanystagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350BFD7AF195E2974BFF34CB /* Pods_DanystagramUITests.framework */; };
 		D2B780C820F991089AD9BBDA /* Pods_Danystagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29A224ED416C464F6719FBF /* Pods_Danystagram.framework */; };
+		D327A9802249C6A6003AD827 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D327A97F2249C6A6003AD827 /* CommentCell.swift */; };
 		D3A9EB132235F003008656FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9EB122235F003008656FB /* AppDelegate.swift */; };
 		D3A9EB182235F003008656FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A9EB162235F003008656FB /* Main.storyboard */; };
 		D3A9EB1A2235F005008656FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A9EB192235F005008656FB /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		9C65A301B68A3D002BAA69B1 /* Pods-Danystagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danystagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Danystagram/Pods-Danystagram.debug.xcconfig"; sourceTree = "<group>"; };
 		CA1260640996EA4EDAC4D5F3 /* Pods-Danystagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danystagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Danystagram/Pods-Danystagram.release.xcconfig"; sourceTree = "<group>"; };
 		D29A224ED416C464F6719FBF /* Pods_Danystagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Danystagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D327A97F2249C6A6003AD827 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		D3A9EB0F2235F003008656FB /* Danystagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Danystagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A9EB122235F003008656FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3A9EB172235F003008656FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				D3A9EB422235FD0E008656FB /* FeedViewController.swift */,
 				D3A9EB4422360D62008656FB /* CameraViewController.swift */,
 				D3A9EB46223619BF008656FB /* PostCell.swift */,
+				D327A97F2249C6A6003AD827 /* CommentCell.swift */,
 			);
 			path = Danystagram;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				D3A9EB432235FD0E008656FB /* FeedViewController.swift in Sources */,
 				D3A9EB132235F003008656FB /* AppDelegate.swift in Sources */,
 				D3A9EB47223619BF008656FB /* PostCell.swift in Sources */,
+				D327A9802249C6A6003AD827 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
